@@ -332,6 +332,7 @@ section
 .products .product-slider .box
 {
     
+    height: 450px;
     background: #fff;
     text-align: center;
     border-radius: .5rem;
@@ -339,6 +340,7 @@ section
     outline-offset: -1rem;
     outline: .1rem solid rgba(0, 0, 0, 0.562);
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    transition: .5s;
    
     
 
@@ -495,7 +497,13 @@ section
 
 
 
-
+.products .product-slider .swiper-wrapper .box
+{
+    font-size: 15px;
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
 
 
 
