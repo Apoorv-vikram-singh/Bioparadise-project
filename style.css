@@ -67,6 +67,12 @@ body
     margin-left: .5rem;
     cursor: pointer;
 }
+.header .icons a div
+{
+   font-size: 2rem;
+   color: black;
+}
+
 .header .icons div:hover
 {
 
