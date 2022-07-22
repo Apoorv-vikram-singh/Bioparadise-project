@@ -39,72 +39,19 @@
         <label for="searchbox" class="fa fa-search"></label>
       </form>
       <div class="shoping-card">
-        <div class="box">
-          <i class="fa fa-trash" aria-hidden="true"></i>
-          <img
-            src="https://images.unsplash.com/photo-1644982647708-0b2cc3d910b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-            alt=""
-          />
-          <div class="content">
-            <h3>chilly</h3>
-            <span class="price">$4.96</span>
-            <span class="quan">
-              <select class="sele">
-                <option>select quantity</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>10</option>
-                <option>20</option>
-              </select>
-            </span>
-          </div>
+        <h2 class="cart-title"> Your Card</h2>
+        <div class="cart-content">
         </div>
-        <div class="box">
-          <i class="fa fa-trash" aria-hidden="true"></i>
-          <img
-            src="https://images.unsplash.com/photo-1644982647708-0b2cc3d910b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-            alt=""
-          />
-          <div class="content">
-            <h3>chilly</h3>
-            <span class="price">$4.96</span>
-            <span class="quan">
-              <select class="sele">
-                <option>select quantity</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>10</option>
-                <option>20</option>
-              </select>
-            </span>
-          </div>
+        <!-- totoal -->
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">$0</div> 
         </div>
-        <div class="box">
-          <i class="fa fa-trash" aria-hidden="true"></i>
-          <img
-            src="https://images.unsplash.com/photo-1644982647708-0b2cc3d910b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-            alt=""
-          />
-          <div class="content">
-            <h3>chilly</h3>
-            <span class="price">$4.96</span>
-            <span class="quan">
-              <select class="sele">
-                <option>select quantity</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>10</option>
-                <option>20</option>
-              </select>
-            </span>
-          </div>
-        </div>
-        <div class="total">total : $55.5/-</div>
-        <a href="#" class="btn">checkout</a>
+        <button type="button" class="btn-buy">Buy Now </button>
+         <!-- claose the card -->
+         <i class="fa fa-trash" id="close-cart"></i>
       </div>
+
     </div>
     <section class="home" id="home">
       <div class="content1">
@@ -146,14 +93,15 @@
     <!-- Product sectio start from here -->
     <section class="products" id="products">
       <h1 class="heading"> our <span>products</span></h1>
+      <div class ="product-all-content">
       <div class="swiper product-slider">
 
         <div class="swiper-wrapper">
 
           <div class="swiper-slide box">
 
-          <img src="./oil.jpeg" alt="">  
-          <h3 id="item1">pro-n-all</h3>
+          <img src="./oil.jpeg" alt="" class="product-img">  
+          <h3 class="product-titles">pro-n-all</h3>
           <p class="about">high protein supplement enriched with D.H.A. Iron, Folic Acid, & L-Lysine.</p>
           <div class="price">$20/-</div>
           <div class="start">
@@ -163,12 +111,12 @@
             <i class="fa fa-star"></i>
             <i class="fa fa-star-half-o"></i>
           </div>
-            <a href="#" class="btn">Add to card</a>
+            <a href="#" class="btn add-cart">Add to card</a>
           </div>
           <div class="swiper-slide box">
 
-            <img src="./image/WhatsApp Image 2022-07-18 at 10.02.53 AM.jpeg" alt="" id="brainbp">  
-            <h3 >brain-bp</h3>
+            <img src="./image/WhatsApp Image 2022-07-18 at 10.02.53 AM.jpeg" alt="" id="brainbp" class="product-img">  
+            <h3 class="product-titles">brain-bp</h3>
             <p class="about">Powerful memory booster and health promoter</p>
             <div class="price">$20/-</div>
             <div class="start">
@@ -178,12 +126,12 @@
               <i class="fa fa-star"></i>
               <i class="fa fa-star-half-o"></i>
             </div>
-              <a href="#" class="btn">Add to card</a>
+              <a href="#" class="btn add-cart">Add to card</a>
             </div>
             <div class="swiper-slide box">
 
-              <img src="./WhatsApp Image 2022-07-18 at 10.03.36 AM.jpeg" alt="">  
-              <h3>bio vigorous(syrup)</h3>
+              <img src="./WhatsApp Image 2022-07-18 at 10.03.36 AM.jpeg" alt="" class="product-img">  
+              <h3 class="product-titles">bio vigorous(syrup)</h3>
               <p class="about">Antioxidants,multivitamin and Multiminerals</p>
               <div class="price">$20/-</div>
               <div class="start">
@@ -193,7 +141,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-half-o"></i>
               </div>
-                <a href="#" class="btn">Add to card</a>
+                <a href="#" class="btn add-cart">Add to card</a>
               </div>
         </div>
 
@@ -204,8 +152,8 @@
 
           <div class="swiper-slide box">
 
-          <img src="./breer-xt.jpeg" alt="" id="brafer">  
-          <h3>brafer-xt</h3>
+          <img src="./breer-xt.jpeg" alt="" id="brafer" class="product-img">  
+          <h3 class="product-titles">brafer-xt</h3>
           <p class="about">Helps in producing red blood cells</p>
           <div class="price">$20/-</div>
           <div class="start">
@@ -215,12 +163,12 @@
             <i class="fa fa-star"></i>
             <i class="fa fa-star-half-o"></i>
           </div>
-            <a href="#" class="btn">Add to card</a>
+            <a href="#" class="btn add-cart">Add to card</a>
           </div>
           <div class="swiper-slide box">
 
-            <img src="./image/WhatsApp Image 2022-07-18 at 9.53.21 AM.jpeg" alt="">  
-            <h3>arsh-vikalp</h3>
+            <img src="./image/WhatsApp Image 2022-07-18 at 9.53.21 AM.jpeg" alt="" class="product-img">  
+            <h3 class="product-titles">arsh-vikalp</h3>
             <p class="about"></p>
             <div class="price">$20/-</div>
             <div class="start">
@@ -230,12 +178,12 @@
               <i class="fa fa-star"></i>
               <i class="fa fa-star-half-o"></i>
             </div>
-              <a href="#" class="btn">Add to card</a>
+              <a href="#" class="btn add-cart">Add to card</a>
             </div>
             <div class="swiper-slide box">
 
-              <img src="./image/WhatsApp Image 2022-07-18 at 9.53.47 AM.jpeg" alt="" id="para">  
-              <h3>paragisec oil</h3>
+              <img src="./image/WhatsApp Image 2022-07-18 at 9.53.47 AM.jpeg" alt="" id="para" class="product-img">  
+              <h3 class="product-titles">paragisec oil</h3>
               <p class="about">Muscle relaxant oil which provides quick relief in joint, neck and muscle pains</p>
               <div class="price">$20/-</div>
               <div class="start">
@@ -245,7 +193,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-half-o"></i>
               </div>
-                <a href="#" class="btn">Add to card</a>
+                <a href="#" class="btn add-cart">Add to card</a>
               </div>
         </div>
 
@@ -256,9 +204,9 @@
 
           <div class="swiper-slide box">
 
-          <img src="./k.jpeg" alt=""> 
+          <img src="./k.jpeg" alt="" class="product-img"> 
         
-          <h3>livdise</h3>
+          <h3 class="product-titles">livdise</h3>
           <p class="about">Therapeutic benefitsin liver diseases and disorders</p>
           <div class="price">$20/-</div>
           <div class="start">
@@ -268,12 +216,12 @@
             <i class="fa fa-star"></i>
             <i class="fa fa-star-half-o"></i>
           </div>
-            <a href="#" class="btn">Add to card</a>
+            <a href="#" class="btn add-cart">Add to card</a>
           </div>
           <div class="swiper-slide box">
 
-            <img src="./image/WhatsApp Image 2022-07-18 at 9.55.43 AM.jpeg" alt="">  
-            <h3>alkadise syrup</h3>
+            <img src="./image/WhatsApp Image 2022-07-18 at 9.55.43 AM.jpeg" alt="" class="product-img">  
+            <h3 class="product-titles">alkadise syrup</h3>
             <p class="about">Reduce the acidity of urine and to treat the symptoms of Urinary</p>
             <div class="price">$20/-</div>
             <div class="start">
@@ -283,12 +231,12 @@
               <i class="fa fa-star"></i>
               <i class="fa fa-star-half-o"></i>
             </div>
-              <a href="#" class="btn">Add to card</a>
+              <a href="#" class="btn add-cart">Add to card</a>
             </div>
             <div class="swiper-slide box">
 
-              <img src="./image/WhatsApp Image 2022-07-18 at 9.56.13 AM.jpeg" alt="">  
-              <h3>coflax syrup</h3>
+              <img src="./image/WhatsApp Image 2022-07-18 at 9.56.13 AM.jpeg" alt="" class="product-img">  
+              <h3 class="product-titles">coflax syrup</h3>
               <p class="about">Cough syrup enriched with Honey to give another taste experience</p>
               <div class="price">$20/-</div>
               <div class="start">
@@ -298,7 +246,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-half-o"></i>
               </div>
-                <a href="#" class="btn">Add to card</a>
+                <a href="#" class='btn add-cart'>Add to card</a>
               </div>
         </div>
 
@@ -309,8 +257,8 @@
 
           <div class="swiper-slide box">
 
-          <img src="./image/WhatsApp Image 2022-07-18 at 9.56.49 AM.jpeg" alt="">  
-          <h3>ultron bp</h3>
+          <img src="./image/WhatsApp Image 2022-07-18 at 9.56.49 AM.jpeg" alt="" class="product-img">  
+          <h3 class="product-titles">ultron bp</h3>
           <p class="about">Constisting qualities like Anti bacterial, Anti fungal, Anti pyretic</p>
           <div class="price">$20/-</div>
           <div class="start">
@@ -320,12 +268,12 @@
             <i class="fa fa-star"></i>
             <i class="fa fa-star-half-o"></i>
           </div>
-            <a href="#" class="btn">Add to card</a>
+            <a href="#" class="btn add-cart">Add to card</a>
           </div>
           <div class="swiper-slide box">
 
-            <img src="./ta.jpeg" alt="" id="biovig">  
-            <h3>bio vigorous</h3>
+            <img src="./ta.jpeg" alt="" id="biovig" class="product-img">  
+            <h3 class="product-titles">bio vigorous</h3>
             <p class="about">Antioxidants,multivitamin and Multiminerals</p>
             <div class="price">$20/-</div>
             <div class="start">
@@ -335,12 +283,12 @@
               <i class="fa fa-star"></i>
               <i class="fa fa-star-half-o"></i>
             </div>
-              <a href="#" class="btn">Add to card</a>
+              <a href="#" class="btn add-cart">Add to card</a>
             </div>
             <div class="swiper-slide box">
 
-              <img src="./k2.jpg" alt="">  
-              <h3>livdise</h3>
+              <img src="./k2.jpg" alt="" class="product-img">  
+              <h3 class="product-titles">livdise</h3>
               <p class="about"> Therapeutic benefitsin liver diseases and disorders</p>
               <div class="price">$20/-</div>
               <div class="start">
@@ -350,10 +298,10 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star-half-o"></i>
               </div>
-                <a href="#" class="btn">Add to card</a>
+                <a href="#" class="btn add-cart">Add to card</a>
               </div>
         </div>
-
+    </div>
       </div>
 
     </section>
