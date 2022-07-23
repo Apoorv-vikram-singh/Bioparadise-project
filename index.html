@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bioparadise Pharmaceuticals</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./animation/animation.css">
   </head>
-  <body>
+  <body onload="playLoader()">
+    <div class="Animatecontainer">
+        <div class="boxer">
+        </div>
+        <p class="anima">Loading<span class="ani">...</span></p>
+    </div>
+    <div class="kamm">
     <div class="header">
       <a href="https://www.instagram.com/bioparadisepharmaceutical/" target="_blank" class="logo"><i class="fa fa-user-md" aria-hidden="true"></i> Bioparadise</a>
       <nav class="navbar">
@@ -64,7 +70,7 @@
         <a class="suyash"href="#biovig">bio vigorous</a>
       </div>
       
-      </div>
+    </div>
 
       <div class="shoping-card">
         <h2 class="cart-title"> Your Card</h2>
@@ -82,6 +88,7 @@
       </div>
 
     </div>
+    
     <section class="home" id="home">
       <div class="content1">
       <h3>Top <span>Brands Product</span>for you</h3>
@@ -117,7 +124,6 @@
         </div>
       </div>
     </section>
-  </div>
   <!-- FEATURE SECTION END -->
     <!-- Product sectio start from here -->
     <section class="products" id="products">
@@ -395,12 +401,14 @@
         </div>
 
       </div>
-
-    </div>
     <div class="credit"><a href="https://www.linkedin.com/in/apoorv-vikram-singh-rathore-7a2a78220/?originalSubdomain=in" target="_blank">created by<span>A V</span> all right reserved</a></div>
 
    </section>
+  
+  </div>
+  <script src="./animation/animation.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./logic.js"></script>
+  
   </body>
 </html>
