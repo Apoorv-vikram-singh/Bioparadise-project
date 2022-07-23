@@ -92,7 +92,10 @@ body
     top: 110%;right: -110%;
     width: 50rem;
     height: 4rem;
-    background-color:#fff;
+    /* background-color:#fff; */
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
     border-radius: .5rem;
     overflow: hidden;
     display: flex;
@@ -113,7 +116,6 @@ body
     font-size: 1.6rem;
     color: black;
     padding: 0 1.5rem;
-
 }
 .header .searchform label
 {
@@ -134,7 +136,10 @@ body
     padding: 1rem;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
     width: 35rem;
     margin-top: 4px;
     transition: .3s;
@@ -178,11 +183,12 @@ body
     font-weight: 900;
     font-size: 1.2rem;
 }
+
 .cart-quantity
 {
     border: 1px solid black;
     outline-color: coral;
-    width: 2.8rem;
+    width: 5rem;
     text-align: center;
     font-size: 1rem;
     font-weight: 900;
@@ -236,12 +242,14 @@ body
 }
 .total-title
 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 .total-price
 {
     margin-left: .5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 
 }
 /* .header .shoping-card .box
@@ -595,7 +603,9 @@ section
 }
 .footer .box-container .box .share a:hover
 {
-    background-color: orange;
+    /* background-color: orange; */
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+
     color: #fff;
 }
 .footer .credit
