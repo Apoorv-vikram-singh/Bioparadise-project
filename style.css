@@ -91,16 +91,26 @@ body
     position: absolute;
     top: 110%;right: -110%;
     width: 50rem;
-    height: 4rem;
-    /* background-color:#fff; */
-    background-color: #74EBD5;
-background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    height: 35rem;
+    background-color: rgb(27, 88, 99);
+    /* background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
 
     border-radius: .5rem;
     overflow: hidden;
     display: flex;
     align-items: center;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.suyash
+{
+    font-size: large;
+    color: #F4D03F;
+    
+}
+.suyash:hover
+{
+    color: rgb(148, 22, 22);
 }
 .header .searchform.activate
 {
