@@ -664,8 +664,16 @@ background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
 
     font-weight: 900;
 }
+.categories .box-container .box:hover
+{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 5px 5px 10px gray;transform: scale(1.1);
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
 
-
+   
+}
 
 
 
