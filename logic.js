@@ -166,7 +166,7 @@ function updatetotal() {
     var cartbox = cardBoxes[i];
     var priceElemnt = cartbox.getElementsByClassName("cart-price")[0];
     var quantityElement = cartbox.getElementsByClassName("cart-quantity")[0];
-    var price = parseFloat(priceElemnt.innerText.replace("$", ""));
+    var price = parseFloat(priceElemnt.innerText.replace("₹", ""));
     var quantity = quantityElement.value;
 
     total = total + price * quantity;
@@ -174,5 +174,5 @@ function updatetotal() {
     //if price content have some cent valuese
     total = Math.round(total * 100) / 100;
 
-    document.getElementsByClassName("total-price")[0].innerText = "$" + total;
+    document.getElementsByClassName("total-price")[0].innerText = "₹" + total;
 }
